@@ -1,0 +1,357 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*----------------------------------------Relaxr About-----------------------------------*/
+
+#relaxr_about{ /*body*/
+  font-family: 'Open Sans', sans-serif;s
+
+}
+.about_header{
+  background-image: url(images/header_bg.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.about_header h2{
+
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 150px;
+  padding-bottom: 280px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.get_button{
+ 
+  position: relative;
+  bottom: 200px;
+  background-color: #f9e42e;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 5px;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+}
+
+.buttontext{
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+#benefits{
+  background-color: #f0efef;
+}
+
+#benefits h3{
+  display: block;
+  position: relative;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color:#033048;
+  margin: auto;
+  left: -300px;
+  text-align: center;
+
+
+}
+#benefits p{
+  display: block;
+  position: relative;
+  text-align: left;
+  width: 325px;
+  height: 100px;
+  top: 20px;
+  margin: auto;
+  left: -175px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+
+}
+
+#benefits ul{
+  display: block;
+  position: relative;
+  text-align:left;
+  top: 10px;
+  margin: auto;
+  left: -100px;
+  width: 380px;
+  height: 200px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  list-style: circle;
+
+}
+
+#quote{
+  background-image: url(images/testimonial_bg.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+
+}
+
+#quote p{
+  display: block;
+  position: relative;
+  color: white;
+  width: 300px;
+  height: 250px;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  margin: auto;
+  top: 60px;
+  line-height: 25px;
+  text-align: center;
+
+}
+
+
+
+/*---------------------------------------Relaxr Blog------------------------------------------------*/
+#relaxr_blog{ /*body*/
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+
+}
+
+.blog_header{ 
+  background-color:#033048;
+  height: 80px;
+}
+
+#logo{
+  display: inline-block;
+  padding-top:20px;
+  font-size: 40px;
+  font-weight: 800;
+
+  color: white;
+}
+
+.navigation{
+  display: inline-block;
+  padding-left: 30px;
+  color: #f9e42e;  
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.top_nav{
+  display: inline ;
+  padding-left: 25%;
+
+}
+
+a:hover{
+  color:gray;
+
+}
+
+#left_column{
+
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+  text-align: left;
+  width: 700px;
+
+
+}
+
+#first_post h1, #second_post h1{
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  color:#033048;
+}
+
+
+
+article{
+
+  font-size: 24px;
+  font-weight: 300px;
+  line-height: 1.33
+  padding-bottom: 25px;
+  padding-top: 20px;
+  color: #606161;
+
+}
+
+article::first-letter {
+  float: left;
+  font-size: 80px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+ 
+}
+
+
+
+
+.readmore{
+  text-decoration:none;
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  float: right;
+  padding-bottom: 20px;
+}
+
+.readmore a{
+  text-decoration:none;
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  float: right;
+  padding-bottom: 20px;
+}
+
+/*--------------------JS--------------------------*/
+/*#show-this-on-click{
+  width: 600px;
+  height: 100px;
+  background-color: orange;*/
+}
+/*----------------------------------------------
+*/
+.line1{
+  display: block;
+  background-color: gray;
+  height: 2px;
+  margin-top: 55px;
+}
+
+#right_column{
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  padding-left: 20px;
+  padding-top: 45px;
+}
+
+#sidebar_header h1 ,h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color:  #033048;
+  text-align: left;
+  padding-bottom: 20px;
+
+}
+
+#sidebar_header p{
+  font-size: 22px;
+  font-weight: 300;
+  color:  #033048;
+  text-align: left;
+  line-height: 25px;
+}
+
+.small_nav{
+  padding-bottom: 80px;
+}
+.side_nav{
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 300;
+  color:  #033048;
+  padding-bottom: 5px;
+
+}
+
+.learnmore{
+  text-decoration: none;
+  color:  #033048;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+}
+
+
+.line2{
+  display: block;
+  background-color: gray;
+  height: 2px;
+  margin-top: 55px;
+  margin-bottom:100px;
+
+}
+/*---------------------------------------Sign Up Bar Button------------------------------------------------*/
+
+#lower_bar{
+  background-color: #f9e42e;
+  height: 80px;
+
+}
+
+.sign_button{
+  position: relative;
+  background-color: #033048;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 5px;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+  top: 20px;
+}
+
+.sign{
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+/*---------------------------------------Footer------------------------------------------------*/
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
